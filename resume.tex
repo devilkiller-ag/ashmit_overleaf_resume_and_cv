@@ -1,0 +1,343 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------
+% CV Template in LaTeX
+% Author: Ashmit JaiSarita Gupta (https://ashmit.dev/)
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\setlength{\footskip}{4.08003pt}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% Sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% Serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that the generated PDF is machine-readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+    \item\small{
+        {#1 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-2pt}\item
+        \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+            \textbf{#1} & \textbf{\small #2} \\
+            \textit{\small#3} & \textit{\small #4} \\
+        \end{tabular*}
+        \vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+        \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\vspace*{1pt}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Ashmit Gupta} \\ \vspace{1pt}
+    H.No. 30, Gurutola, Azamgarh, Uttar Pradesh 276001 \\ \vspace{1pt}
+    \href{tel:+91-8299538244}{\raisebox{-0.2\height}\faPhone\  \underline{+91-8299538244}} ~
+    \href{https://www.ashmit.dev}{\raisebox{-0.2\height}\faGlobe\ 
+    \underline{ashmit.dev}} ~
+    \href{mailto:ashmitgupta.official@outlook.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{ashmitgupta.official@outlook.com}} ~ 
+    \href{https://www.linkedin.com/in/jaisarita/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/jaisarita}}  ~
+    
+    \href{https://github.com/devilkiller-ag}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/devilkiller-ag}}
+    % \vspace{-4pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {National Institute of Technology Hamirpur}{Dec. 2021 -- July 2025}
+            {Bachelor of Technology in Engineering Physics}{Hamirpur, Himachal Pradesh}
+    \resumeSubHeadingListEnd
+    
+\vspace{-8pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+        \small{\item{
+            \textbf{Languages}{: C++, JavaScript, TypeScript, Python} \\
+            \textbf{Technologies/Frameworks}{: ReactJs, ExpressJs, Storybook, Qiskit, Pennylane, Classiq, PyTorch, Numpy, Matplotlib} \\
+            \textbf{Domains}{: Data Structures and Algorithms, Full Stack Web Development, Quantum Computing, Community Management}
+        }}
+    \end{itemize}
+
+\vspace{-8pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+    {\href{https://summerofcode.withgoogle.com/programs/2024/projects/S49Gon9W}{Google Summer of Code 2024}}{May 2024 - Present}
+        {Open Source Mentorship Program}{AsyncAPI Initiative}
+        \vspace{-6pt}
+        \resumeItemListStart
+            \resumeItem{Developing a UI Kit for the AsyncAPI website using Storybook in Next.js and Typescript.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+    {\href{https://www.asyncapi.com/}{Open Source Contributor at the AsyncAPI Intitative}}{Oct. 2023 - Present}
+        {Web Developer and Technical Steering Committee Member}{AsyncAPI Initiative}
+        \vspace{-6pt}
+        \resumeItemListStart
+            \resumeItem{I am a member of the AsyncAPI \underline{\href{https://www.asyncapi.com/community/tsc}{Technical Steering Committee}} which is responsible for the oversight of the AsyncAPI Initiative.}
+            \resumeItem{Migrated the \underline{\href{https://www.asyncapi.com/}{AsyncAPI Website}} from JavaScript to TypeScript + Next.js.}
+            \resumeItem{Migrated the \underline{\href{https://modelina.org/}{Modelina website}} codebase from class-based react components to functional components.}
+            \resumeItem{Developed \underline{\href{https://modelina.org/playground}{Modelina Playground}} to enable visitors to try Modelina itself on the website without configuring something in the local environment.}
+        \resumeItemListEnd
+  
+    \resumeSubheading
+        {\href{https://creedandbear.com/}{Quantum Computing Intern}}{January 2024 - Present}
+        {Internship}{Creed \& Bear}
+        \vspace{-6pt}
+        \resumeItemListStart
+            \resumeItem{Working on quantum computing research and software projects.}
+            \resumeItem{Currently developing software for portfolio optimization using quantum computing.}
+            \resumeItem{Researched and wrote a review paper on the Effect of Quantum Computing on Blockchain.}
+            \resumeItem{Worked on the Optimization of the Power Distribution Network at the three-month TCS Quantum Challenge 2023.}
+        \resumeItemListEnd
+        
+        \resumeSubheading
+            {\href{https://www.qaif.org/contests/quantum-games-hackathon}{Quantum Games Hackathon 2023}}{October 2023}
+            {Participant}{Quantum AI Foundation}
+            \vspace{-6pt}
+            \resumeItemListStart
+                \resumeItem{Developed \underline{\href{https://github.com/devilkiller-ag/QuantaVania}{QuantaVania}}, a 2D action-adventure platformer quantum game facilitating Quantum Computing learning.}
+                \resumeItem{Winner of the Special Prize for Sanrto/Onyx Category for demonstrating Logistics optimization using QUBO in our game.}
+            \resumeItemListEnd
+        
+        \resumeSubheading
+            {\href{https://qworld.net/qcourse551-1/}{Quantum Software Developer Trainee}}{October 2023 - January 2024}
+            {QCourse551 Mentorship Program with Classiq}{QWorld}
+            \vspace{-6pt}
+            \resumeItemListStart
+                \resumeItem{Developing a hybrid network with classical and quantum layers to classify the MNIST dataset.}
+                \resumeItem{Maintaining a weekly blog post about the project journey at \underline{\href{https://jaisarita.hashnode.dev/reflection-on-my-quantum-software-developer-journey-at-qworld-classiq-implementing-quantum-neural-network-algorithm}{https://jaisarita.hashnode.dev/}}.}
+            \resumeItemListEnd
+  
+        \resumeSubheading
+            {\href{https://qiskit.org/advocates}{Qiskit Advocate}}{August 2023 - Present}
+            {Developer Advocate}{Qiskit}
+            \vspace{-6pt}
+            \resumeItemListStart
+                \resumeItem{Resolved Bugs in Qiskit Braket Provider and Qiskit Textbook.}
+                \resumeItem{Achieved certification as IBM Certified Associate Developer - Quantum Computation using Qiskit v0.2X}
+            \resumeItemListEnd
+
+        \resumeSubheading
+            {\href{https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/5712f83a-b4c5-4033-b77a-a5ce2bbd6ea3}
+            {Microsoft Learn Student Ambassador}}{October 2022 -- Present}
+            {Beta Microsoft Learn Student Ambassador}{Hamirpur}
+            \vspace{-6pt}
+            \resumeItemListStart
+                \resumeItem{Completed the Technical Onboarding Process and learned about Git, GitHub, and Static Web Apps.}
+                \resumeItem{Reached Alpha Milestone by completing Microsoft Learn Learning Path on Quantum Computing.}
+                \resumeItem{Conducted a Microsoft Student Ambassadors Azure AI Challenge at my department with 24 attendees.}
+                \resumeItemListEnd
+            
+        \resumeSubheading
+            {\href{https://qworld.net/qintern-2023/}{QIntern 2023}}{July 2023 - August 2023}
+            {Research Intern}{QWorld}
+            \vspace{-6pt}
+            \resumeItemListStart
+                \resumeItem{Optimized logistics using quantum computing.}
+                \resumeItem{Solved Vehicle Routing Problem using VQE, Surrogate Optimization, and their variants.}
+            \resumeItemListEnd
+
+        \resumeSubheading
+        {\href{https://sites.nyuad.nyu.edu/hackathon/}{11th NYUAD International Hackathon For Social Good}}{April 2023}{Participant}{New York University Abu Dhabi}
+        \vspace{-6pt}
+        \resumeItemListStart
+            \resumeItem{Attended workshops on QBronze and QSilver.}
+            \resumeItem{Built an application to use Quantum Computing for Simulating Molecular Engineering for Fertilizer Design.}
+        \resumeItemListEnd
+        % \vspace{-4pt}
+    
+    \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\textbf{\href{https://ashmit.dev/}{Portfolio Website}} $|$ \emph{Figma, React, Typescript, Three.js, TailwindCSS, EmailJS, GraphQL, HyGraph}}{July - August 2023}
+            \resumeItemListStart
+                \resumeItem{Developed a portfolio website for myself having features to write blogs, and showcase my projects, experiences, and resume in an interactive way using 3D components.}
+            \resumeItemListEnd
+            \vspace{-15pt}
+        
+        % \resumeProjectHeading
+            % {\textbf{\href{https://pypi.org/project/qcge/}{QCGE: Quantum Circuit Game Engine}} $|$ \emph{Qiskit, Pygame}}{Nov 2023}
+            % \resumeItemListStart
+            %     \resumeItem{Developed QCGE, a Python package facilitating game developers to integrate Quantum Circuits into Pygame-based quantum games seamlessly.}
+            %     % \resumeItem{Enables easy addition of controls based on quantum circuits and measurements, with customizable UI, qubit count, and gate configurations.}
+            % \resumeItemListEnd
+            % \vspace{-15pt} 
+        
+        \resumeProjectHeading
+            {\textbf{\href{https://askitout.vercel.app/}{AskItOut: Doubt Sharing Website for Educational Institutions}} $|$ \emph{Figma, React, Express.js}}{Feb - May 2023}
+            \resumeItemListStart
+                \resumeItem{Designed and developed a website for college students to ask and get answers to their doubts from experienced seniors.}
+                \resumeItem{Code and detailed description available at \underline{{\href{https://github.com/devilkiller-ag/AskItOut}{https://github.com/devilkiller-ag/AskItOut}}}.}
+            \resumeItemListEnd
+            \vspace{-15pt}
+            
+            \resumeProjectHeading
+                {\textbf{\href{https://github.com/devilkiller-ag/NYUAD-2023/tree/main/QCrop}{QCrop}} $|$ \emph{Qiskit, React, Python}}{April 2023}
+                \resumeItemListStart
+                  \resumeItem{An application to use Quantum Computing for Simulating Molecular Engineering for Fertilizer Design.}
+                  \resumeItem{Used Variational Quantum Eigensolver and Error Mitigation Techniques to calculate Energy Landscape of different molecules}
+                \resumeItemListEnd
+                \vspace{-13pt}
+
+        % \resumeProjectHeading
+        %     {\textbf{\href{https://github.com/devilkiller-ag/kullu-history-threejs}{Exploring the Past: Kullu}} $|$ \emph{Solidity, Blender 3D, HTML, Tailwind CSS, Javascript, Three.js, React}}{April 2023}
+        %     \resumeItemListStart
+        %         \resumeItem{Developed a website to promote tourism in Kullu, providing immersive VR experiences and increasing awareness of cultural and historical sites. Implemented a 3D NFT Marketplace for buying traditional and cultural art in the virtual world. }
+        %     \resumeItemListEnd
+        % \vspace{-13pt}
+        
+        \resumeProjectHeading
+        {\textbf{\href{https://github.com/devilkiller-ag/Quantum-Breakout}{Quantum Breakout}} $|$ \emph{Pygame, Qiskit, Python}}{March 2023}
+        \resumeItemListStart
+        \resumeItem{Created a Quantum version of the classical Breakout Game to facilitate easy learning of Qubit Manipulation using various Quantum Gates.}
+        \resumeItemListEnd
+        \vspace{-15pt}
+        
+        % \resumeProjectHeading
+        %     {\textbf{\href{https://abraxas-2023.vercel.app/}{Website for Team Abraxas}} $|$ \emph{Figma, ReactJs, react-three-fiber, react-three-drei}}{March 2023}
+        %     \resumeItemListStart
+        %         \resumeItem{Developed the official website of Team Abraxas for the annual tech-fest at NIT Hamirpur: Nimbus 2023.}
+        %     \resumeItemListEnd
+        % \vspace{-15pt} 
+        
+        \resumeProjectHeading
+            {\textbf{\href{https://ashmit.dev/archives}{Explore All Projects}} \emph{}}{}
+            \resumeItemListStart
+                \resumeItem{Visit \underline{{\href{https://ashmit.dev/archives}{https://ashmit.dev/archives}}} to explore all my projects in detail.}
+            \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+\vspace{-8pt}
+        
+%-----------INVOLVEMENT---------------
+\section{Leadership / Volunteering}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Physteo - The Physics Society}{Oct. 2022 -- Present}{Founder and President}{NIT Hamirpur}
+            \resumeItemListStart
+                \resumeItem{Founded the Physics Society of the National Institute of Technology Hamirpur under the Department of Physics and Photonics Science.}
+                \resumeItem{Organizing National Physics Conference 2024 to bring top representatives of Industry and Academia working in the different fields of Physics to one platform and guide the students.}
+                \resumeItem{Leading and managing the team of 60 individuals to promote our department in the industry world and guide our students.}
+            \resumeItemListEnd
+
+        \resumeSubheading{Training and Placement Office}{August 2023 -- September 2024}{Training and Placement Representative (TPR)}{NIT Hamirpur}
+            \resumeItemListStart
+                \resumeItem{Currently serving as a Core TPR managing industry and institute interaction and database.}
+                \resumeItem{Served as Junior TPR during my pre-final year undergraduate studies from August 2023 - April 2024. I helped pre-final year students to grab internships by bringing and coordinating with various companies.}
+            \resumeItemListEnd
+                
+        \resumeSubheading{Team Abraxas}{Dec. 2022 -- Present}{Executive Volunteer and Pre-final year Volunteer}{Nimbus 2023 and Nimbus 2024}
+            \resumeItemListStart
+                \resumeItem{Conducted a workshop on the Introduction to Quantum Computing, instructing 100+ students about the basics and career opportunities.}
+                \resumeItem{Developed a 2-D game, Quantum Breakout, to simplify learning Quantum Gates.}
+                \resumeItem{Leading and guiding freshmen and sophomore volunteers.}
+            \resumeItemListEnd 
+
+        \resumeSubheading{Society for Promotion of Electronics Culture}{Dec. 2021 -- Jan. 2023}{Executive Volunteer}{NIT Hamirpur}
+            \resumeItemListStart
+                \resumeItem{Organized Electrothon 4.0, a global online hackathon with 2000+ participants.}
+                \resumeItem{Created content for social media posts, emails, and speeches for various society events.}
+                \resumeItem{Organized and hosted workshops to give attendees an insight into the engineering industry.}
+            \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+
+\end{document}
